@@ -8,5 +8,11 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+        var dog1 = dog + 4;
+        System.out.println(dog1);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper += 4;
+        System.out.println(paper);
     }
 }
