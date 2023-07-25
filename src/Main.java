@@ -35,5 +35,24 @@ var friend = 19;
         System.out.println(frog);
         frog += 4;
         System.out.println(frog);
+
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var totalWeight = boxer1 + boxer2;
+        System.out.println("Общий вес бойцов " + totalWeight + " кг");
+        var difference1 = boxer2 - boxer1;
+        System.out.println("Разница в весе " + difference1 + " кг");
+        var difference2 = boxer2 % boxer1;
+        System.out.println("Разница в весе " + difference2 + " кг");
+
+        var totalTimeOfEmployeers = 640;
+        var oneEmployeer = 8;
+        var numberOfEmployeers = totalTimeOfEmployeers / oneEmployeer;
+        System.out.println("Всего работников в компании " + numberOfEmployeers + " человек");
+        numberOfEmployeers += 94;
+        System.out.println(numberOfEmployeers);
+        var newTotalTimeOfEmployeers = numberOfEmployeers * oneEmployeer;
+        System.out.println("Если в компании работает " + numberOfEmployeers + " человек, то всего " + newTotalTimeOfEmployeers + " часов работы может быть поделено между сотрудниками");
+
     }
 }
