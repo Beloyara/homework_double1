@@ -53,6 +53,5 @@ var friend = 19;
         System.out.println(numberOfEmployeers);
         var newTotalTimeOfEmployeers = numberOfEmployeers * oneEmployeer;
         System.out.println("Если в компании работает " + numberOfEmployeers + " человек, то всего " + newTotalTimeOfEmployeers + " часов работы может быть поделено между сотрудниками");
-
     }
 }
